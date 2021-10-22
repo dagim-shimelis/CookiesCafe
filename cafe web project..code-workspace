@@ -1,0 +1,16 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"path": "..\\..\\..\\mysql\\bin"
+		},
+		{
+			"path": "D:\\Nilu\\project\\Working on\\CookiesCafe"
+		}
+	],
+	"settings": {
+		"liveServer.settings.multiRootWorkspaceName": "CookiesCafe"
+	}
+}

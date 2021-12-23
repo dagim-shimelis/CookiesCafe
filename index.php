@@ -7,7 +7,7 @@ require_once("includes/constants.php");
 # the variables for this page only
 $pageTitle= "Cookies Cafe"; #in head-html.php
 $activeHome = "active"; #in navigation-html.php
-$heroSubHeadline = "d</span>elcome"; #in hero-html.php
+$heroSubHeadline = "W</span>elcome"; #in hero-html.php
 $heroHeadline = "cookies cafe"; #in hero-html.php
 $heroMoto = "Make your life a bit more <span id=\"newline\">sweeter.</span>"; #in hero-html.php
 $aboutTitle= "ABOUT US";    #in footer-html.php
@@ -275,5 +275,28 @@ $aboutContent= "As I have tried to mention above the main part of philosophy is 
         <script src="./js2/aos.js"></script>
 <!-- MAIN SCRIPT FOR LOADING AND ... -->
         <script src="./js2/main.js"></script>
+        <script type="module">
+  // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/9.6.1/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
+
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyDPdaIdRjtNmpg38Cra2tDb2zZ0oIXQqUg",
+    authDomain: "cookies-ethio-cafe.firebaseapp.com",
+    projectId: "cookies-ethio-cafe",
+    storageBucket: "cookies-ethio-cafe.appspot.com",
+    messagingSenderId: "118060216533",
+    appId: "1:118060216533:web:d84c92f341b3c31918b25c",
+    measurementId: "G-GZNQBV7TT4"
+  };
+
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
+</script>
     </body>
 </html>

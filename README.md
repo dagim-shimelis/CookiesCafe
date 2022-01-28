@@ -14,15 +14,12 @@ the website was designed with an intension of giving the viewer a warm and welco
 
 ## Features
 
-among the many features that have been implemented in this website, some of the few that pop out from the rest are the elegant animations and the minimalistic ordering page.
-
+among the many features that have been implemented in this website, some of the few that pop out from the rest are the elegant animations and the colorfull ordering page.
 
 ## Contributing
-Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 contributors are more than welcome to work on the backend of this project.
 
 ## License
 [MIT](https://choosealicense.com/licenses/mit/)
-
-

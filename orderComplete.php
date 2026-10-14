@@ -46,7 +46,7 @@ require_once("includes/styles/order-style.php");
 
 
 
-<div class="verify container" style="display:block;>
+<div class="verify container" style="display:block;">
         <p>your order has been reacives <spam>seccsesfuly</spam>. we will be there shortly.</p>
         <br><i class="fa fa-id-badge cookie"></i>
         <p>your verification ID is <spam id="vID">---------</spam><br>you will need it to reacive your ourder.<spam> SO SAVE/REMEMBER IT </spam><big> THANK YOU.</big>
@@ -67,41 +67,8 @@ require_once("includes/styles/order-style.php");
     </div>
 
     
-<?php
-##print_r($_POST);
-##echo "<br><br>";
-##print_r($_FILES);
-
-$myvariabls= array('fullName', 'telNumber', 'telNumber2','locationText','extraOrderText','orderList');
-$submitedvalues= array($_POST['fullName'],$_POST['telNumber'],$_POST['telNumber2'],$_POST['locationText'],$_POST['extraOrderText'],$_POST['orderList']);
-htmlcleaner($myvariabls, $submitedvalues);
-
-
-
-/*
-echo "<pre>
-Full Name       [$fullName]
-Tel Number      [$telNumber]
-Tel Number2     [$telNumber2]
-Location        [$locationText]
-Extra Orders    [$extraOrderText]
-Order List      [$orderList]
-
-</pre>";
-
-*/
-
-
-
-
-
-
-function htmlcleaner($array1 , $array2){
-    for ($valuelength=0; $valuelength<7; ++$valuelength){
-    global $$array1[$valuelength];
-    $$array1[$valuelength]= htmlentities(str_replace('&',"[and]",$array2[$valuelength]));
-        }
-}
-
-
-?>
+</div>
+<script src="./js2/aos.js"></script>
+<script src="./js2/main.js"></script>
+</body>
+</html>

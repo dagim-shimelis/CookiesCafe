@@ -40,3 +40,8 @@ $aboutContent= "As I have tried to mention above the main part of philosophy is 
 <!-- distinct home page content-->
 
 
+</div>
+<script src="./js2/aos.js"></script>
+<script src="./js2/main.js"></script>
+</body>
+</html>

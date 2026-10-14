@@ -1,0 +1,9 @@
+.git/
+.env*
+*.log
+*.sql
+*.code-workspace
+tests/
+public/
+node_modules/
+README.md

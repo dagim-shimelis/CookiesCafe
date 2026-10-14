@@ -1,0 +1,11 @@
+{
+  "name": "cookies-cafe",
+  "private": true,
+  "engines": {
+    "node": "22.x"
+  },
+  "scripts": {
+    "build": "mkdir -p public && cp -R css2 fonts2 images2 js2 webfonts public/ && cp *.html menu-second-cutout.png public/",
+    "test": "node --test tests/deployment.test.mjs"
+  }
+}
